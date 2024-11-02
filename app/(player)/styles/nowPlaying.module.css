@@ -1,0 +1,31 @@
+.now-playing__wrapper {
+  @apply bg-secondary w-full fixed bottom-0 border-l border-background border-2 flex flex-col ;
+  height: var(--now-playing-height)
+}
+.now-playing__track {
+  @apply  absolute top-0 w-full;
+}
+.now-playing__components {
+  @apply flex justify-between items-end pb-6 flex-1 px-6;
+}
+.now-playing__components__icon {
+  @apply hover:bg-accent p-1 rounded-sm cursor-pointer text-base;
+}
+.now-playing__song-details {
+  @apply flex gap-1 w-1/4;
+}
+.now-playing__volume-control {
+  @apply flex gap-2 w-1/5;
+}
+.now-playing__controls__wrapper {
+  @apply flex flex-col justify-center items-center w-2/4;
+}
+.now-playing__controls {
+  @apply flex gap-4 justify-center items-center;
+}
+.now-playing__loop-control__wrapper {
+  @apply flex gap-1 justify-end w-1/4;
+}
+.player{
+  max-width: 300;
+}
